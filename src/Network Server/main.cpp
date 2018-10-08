@@ -1,21 +1,29 @@
 #include <SFML/Graphics.hpp>
-#include <string.h>
+#include <string>
 #include <SFML\Network.hpp>
+#include <iostream>
+
 //SERVER
+//Blue
+
+void checkConnection();
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Blue);
+	sf::Clock clock;
+	sf::Time time;
 
+	clock.restart();
 
 	// SFML NETWORKL
 	sf::IpAddress ipPublic{ sf::IpAddress::getPublicAddress() };
 	sf::IpAddress ipLocal{ sf::IpAddress::getLocalAddress() };
 
 	printf("Public IP: %s \n", ipPublic.toString().c_str());
-	printf("Public IP: %s \n", ipLocal.toString().c_str());
+	printf("Local IP: %s \n", ipLocal.toString().c_str());
 
 	sf::IpAddress senderAdress{ sf::IpAddress::getPublicAddress() };
 	sf::UdpSocket socket1;
@@ -27,7 +35,7 @@ int main()
 	}
 	sf::UdpSocket socket2;
 	socket1.setBlocking(false);
-	if (socket2.bind(42069) != sf::Socket::Done) {
+	if (socket2.bind(420) != sf::Socket::Done) {
 		/// ERROR 
 		printf("Error when binding socket2\n");
 	}
@@ -57,6 +65,7 @@ int main()
         window.clear();
         window.draw(shape);
         window.display();
+		checkConnection();
 
 		unsigned short port = 42069;
 		if (socket2.receive(packet2, senderAdress, port) != sf::Socket::Done)
@@ -71,4 +80,8 @@ int main()
     }
 
     return 0;
+}
+
+void checkConnection() {
+
 }
