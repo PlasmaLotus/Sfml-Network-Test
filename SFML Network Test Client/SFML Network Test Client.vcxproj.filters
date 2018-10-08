@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Client\main.cpp">
+    <ClCompile Include="..\src\Network Client\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.cpp">
+    <ClCompile Include="..\src\Chat\ChatClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\src\Chat\ChatClient.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

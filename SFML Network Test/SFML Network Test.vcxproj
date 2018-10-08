@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C724ACF2-3F98-415F-9749-EFC011F58364}</ProjectGuid>
     <RootNamespace>SFMLNetworkTest</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -133,10 +133,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\main.cpp" />
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="D:\Documents\SFML-2.5.0 x64\bin\openal32.dll" />
     <None Include="D:\Documents\SFML-2.5.0 x64\bin\sfml-audio-2.dll" />
     <None Include="D:\Documents\SFML-2.5.0 x64\bin\sfml-audio-d-2.dll" />
@@ -150,6 +146,16 @@
     <None Include="D:\Documents\SFML-2.5.0 x64\bin\sfml-window-d-2.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.cpp" />
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.cpp" />
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.cpp" />
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.h" />
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.h" />
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h" />
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

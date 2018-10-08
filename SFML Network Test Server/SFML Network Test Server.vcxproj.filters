@@ -15,22 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\main.cpp">
+    <ClCompile Include="..\src\Network Server\server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.cpp">
+    <ClCompile Include="..\src\Network Server\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.cpp">
+    <ClCompile Include="..\src\Chat\ChatServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\src\Network Server\server.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\src\Chat\ChatServer.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

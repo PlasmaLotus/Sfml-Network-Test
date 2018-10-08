@@ -18,11 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Chat\ChatServer.cpp" />
+    <ClCompile Include="..\src\Network Server\main.cpp" />
+    <ClCompile Include="..\src\Network Server\server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Chat\ChatServer.h" />
+    <ClInclude Include="..\src\Network Server\server.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{4FD4B2B9-7C2A-4156-8C65-B7A467B6F4A7}</ProjectGuid>
     <RootNamespace>SFMLNetworkTestServer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,15 +133,6 @@
       <AdditionalLibraryDirectories>D:\Documents\SFML-2.5.0 x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.cpp" />
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\main.cpp" />
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.h" />
-    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,14 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="D:\Documents\SFML-2.5.0 x64\bin\sfml-network-2.dll">
       <Filter>Resource Files</Filter>
     </None>
@@ -58,8 +50,34 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
