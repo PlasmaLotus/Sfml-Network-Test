@@ -147,16 +147,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp" />
+
     <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.cpp" />
     <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.cpp" />
     <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.cpp" />
     <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatClient.h" />
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Chat\ChatServer.h" />
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h" />
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.h" />
+    <ClCompile Include="..\src\NetworkCommunication.cpp" />
+    <ClInclude Include="..\src\NetworkCommunication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

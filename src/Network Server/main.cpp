@@ -9,16 +9,21 @@
 #include <SFML/Network.hpp>
 >>>>>>> eb0a7963ca780d7942b8b3dd7267994876e00a85
 //SERVER
+<<<<<<< HEAD
 //Blue
 
 void checkConnection();
 
+=======
+#include "server.h"
+>>>>>>> 0f12cd91332d68092fb9c3cf5bfd2c007872e337
 
 void acceptNewConnection();
 int main(int argc, char *argv[])
 {
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works! - SERVER");
     sf::CircleShape shape(100.f);
+<<<<<<< HEAD
     shape.setFillColor(sf::Color::Blue);
 <<<<<<< HEAD
 	sf::Clock clock;
@@ -71,6 +76,12 @@ int main(int argc, char *argv[])
 	}
 	*/
 
+=======
+   
+	printf("Server\n");
+	Server server;
+	server.init();
+>>>>>>> 0f12cd91332d68092fb9c3cf5bfd2c007872e337
 	
     while (window.isOpen())
     {
@@ -86,20 +97,9 @@ int main(int argc, char *argv[])
         window.display();
 		checkConnection();
 
-		acceptNewConnection();
-		//socket1.setBlocking(false);
-		if (socket1.receive(packet1, senderAdress, remotePort) != sf::Socket::Done)
-		{
-			// error...
-			//printf("Error?\n");
-		}
-		else {
-			printf("Something was recieved on socket1\n");
-			packet1 = sf::Packet();
-			//
-		}
+		////////
 
-		
+		server.update();
 
 
     }

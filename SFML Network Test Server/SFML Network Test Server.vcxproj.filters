@@ -22,7 +22,11 @@
     <ClCompile Include="..\src\Network Server\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
     <ClCompile Include="..\src\Chat\ChatServer.cpp">
+
+    <ClCompile Include="..\src\Network Server\server.cpp">
+
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,9 +34,12 @@
     <ClInclude Include="..\src\Network Server\server.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\src\Chat\ChatServer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
 
+=======
+>>>>>>> 0f12cd91332d68092fb9c3cf5bfd2c007872e337
   </ItemGroup>
 </Project>
