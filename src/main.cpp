@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
 	std::async(std::launch::async, debugFunction);
 	std::thread t1(debugFunction);
-	t1.
+	//t1.
 
     return 0;
 }
