@@ -18,6 +18,7 @@
     <ClCompile Include="..\src\Network Client\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
     <ClCompile Include="..\src\Chat\ChatClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,5 +27,6 @@
     <ClInclude Include="..\src\Chat\ChatClient.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+
   </ItemGroup>
 </Project>

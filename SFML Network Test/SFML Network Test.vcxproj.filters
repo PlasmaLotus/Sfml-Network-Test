@@ -50,6 +50,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+
     <ClCompile Include="D:\Documents\NetworkTest SFML\SFML Network Test\NetworkCommunication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -79,5 +80,6 @@
     <ClInclude Include="D:\Documents\NetworkTest SFML\SFML Network Test\Network Server\server.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+
   </ItemGroup>
 </Project>
